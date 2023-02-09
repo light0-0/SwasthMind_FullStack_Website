@@ -14,7 +14,7 @@ ReactJS
 Clone this repository by running the following command in your terminal:
 bash
 Copy code
-git clone https://github.com/YOUR-USERNAME/Swasthmind.git
+git clone https://github.com/light0-0/SwasthMind_FullStack_Website.git
 Navigate to the directory:
 bash
 Copy code
