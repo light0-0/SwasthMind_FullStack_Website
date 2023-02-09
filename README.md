@@ -1,4 +1,4 @@
-#Swasthmind
+# Swasthmind
 A full-stack website created as a submission for a competitive hackathon named Rubix. The name "Swasthmind" (written as स्वस्थमन in Hindi) means "healthy mind" and represents the focus on promoting well-being and mental health.
 
 # Features
