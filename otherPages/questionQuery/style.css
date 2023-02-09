@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./selfassessment.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 6rem) center; /*change this*/
+    background-size: 40% 65%;
+  }
+
+
+  
+  
+  :root {
+    --white-grad-1: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  }
+  
+  .bg-white-grad-1 {
+    background: var(--white-grad-1);
+  }
+  
+.quiz-container {
+    text-align: left;
+    flex:0;
+    position: absolute;  /*add this*/
+    left: 6rem; /*add this*/
+    padding-bottom: 40px;
+    bottom: 10rem;
+
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #fff;
+    background-image: linear-gradient(315deg,#f5f7f7 100%);
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.quiz-container{
+    background-color: #add8e6;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgba(100,100,100,0.1);
+    width: 600px;
+    overflow: hidden;
+    padding: top 90px;;
+    height: 395px;
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+
+
+
+h3{
+    padding: 1rem;
+    text-align: top;
+    margin: 0;   
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #03cae4;
+    color: #fff;
+    border-radius: 20px;
+    border: solid white 2px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    bottom: 0;
+
+}
+
+
+button:hover{
+    background-color: #04adc4;
+}
+
+button:focus{
+    outline: none;
+    background-color: #44b927;
+}
+
+#logoNavbar{
+    align-text: left;
+    color: black;
+    text-decoration: none;
+    size: 40px;
+}
+
+
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    width:100%;
+    align-items: center;
+     border-radius: 20px;
+     margin: 4px;
+     background-color: #ADD8E6 ;
+}
+.navbar ul{
+    flex:1;
+    text-align: right;
+}
+.text-primary{
+    text-decoration: underline;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(29, 28, 28);
+}
+.nav-item{
+    color: #575353;
+}
+.nav-list{
+    margin-left: 10vw;
+    font-weight: 590;
+}
+
+.blog:hover{
+    text-decoration: underline;
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.self:hover{
+    text-decoration: underline;
+}
+
+.activities:hover{
+    text-decoration: underline;
+}
+
+.doctor:hover{
+    text-decoration: underline;
+}
+
+.home:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer{
+    background-image:url('footer-agency.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+    .col-4{
+    min-height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    }
+    .footer1 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    }
+    .footer1 i{
+    margin:50px 20px;
+    font-size: 25px;
+    color:grey;
+    }
+    .footer2 h4,
+    .footer3 h4,
+    .footer4 h4{
+    color:grey;
+    font-weight: 400;
+    }
+    .footer hr{
+    width: 90%;
+    margin:0 auto;
+    }
+    .copyright{
+    display: flex;
+    justify-content: space-around;
+    color:grey;
+    padding:30px;
+    font-weight: 400;
+    }
+    #scrolltp{
+    color:white;
+    background: tomato;
+    padding:15px;
+    border-radius:50%;
+    position:fixed;
+    right:50px;
+    bottom:50px;
+    cursor:pointer;
+    transition:opacity 0.5s;
+    }

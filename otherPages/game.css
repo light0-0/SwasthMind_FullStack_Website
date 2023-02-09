@@ -1,0 +1,115 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+/* ---------------------------------------------------- */
+
+/* Container styling */
+.Game-Container{
+    background-image: url(./Resources/bg.png);
+    width: 100%;
+    height:100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dragon{
+    background-image: url(./Resources/dino.png);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 112px;
+    background-size: contain;
+    position: absolute;
+    bottom: 2px;
+    left: 30px;
+}
+
+.obstacle{
+    background-image: url(./Resources/dragon.png);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 112px;
+    background-size: contain;
+    position: absolute;
+    bottom: 2px;
+    right: 130px;
+}
+
+.start-reset{
+    position: absolute;
+}
+
+.start{
+    cursor: pointer;
+}
+
+.gameOver{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.upAnimateDino{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: dragon 1s linear;
+}
+
+.obstacleAni{
+    animation: obstacleAni 5s linear infinite;
+}
+
+@keyframes dragon{
+    0%{
+        bottom: 2px;
+    }
+    25%{
+        bottom: 150px;
+    }
+    40%{
+        bottom:225px;
+    }
+    50%{
+        bottom: 300px;
+    }
+    100%{
+        bottom: 2px;
+    }
+}
+
+@keyframes obstacleAni{
+    0%{
+      left: 100%;  
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+button{
+    width: 80px;
+    height: 37px;
+    border-radius: 18px;
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.score-board{
+    position: absolute;
+    position: absolute;
+    top: 65px;
+    left: 19px;
+    font-size: 30px;
+}
+
+.reset{
+    left: 130px;
+}

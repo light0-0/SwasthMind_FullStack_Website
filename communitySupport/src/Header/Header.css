@@ -1,0 +1,35 @@
+.header{
+    position: sticky;
+    top:0;
+    padding-right: 40px;
+    background-color:#e2ceb8;
+    justify-content:space-evenly;
+    border-bottom:0.1 px solid rgb(255, 252, 252);
+    padding-top: 10px;
+    padding-bottom:10px;
+    width:100%;
+    z-index: 999;
+    
+}
+
+.header_search {
+    padding:10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color:white;
+    background-color:#272727;
+}
+.header_search>input {
+    outline:none;
+    border: none;
+    background:none;
+    color:white;
+
+}
+.header_right {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
